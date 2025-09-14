@@ -1,24 +1,5 @@
 package com.creatio.crm.framework.web.commons;
 
-import java.io.File;
-import java.io.IOException;
-import java.time.Duration;
-import java.util.Properties;
-
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.creatio.crm.framework.base.BasePage;
-import com.creatio.crm.framework.utitlites.PropUtil;
 
 /**
  * The {@code WebCommons} class contains reusable utility methods for web automation
@@ -38,6 +19,7 @@ public class WebCommons {
 	// This class will have all the methods required for Web Automation
 
 	// to get webdriver
+	
 	
 
 	// create method to get data from config.properties
